@@ -1,54 +1,67 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h2
+      style="text-align: center; color: darkgreen; margin-top: 50px"
+      id="demo"
+    ></h2>
+    <div class="container">
+      <div>
+        <p class="text">Number guessing game</p>
+        <p class="text">Let's begin the Game</p>
+        <p class="text">Lets see</p>
+        <br />
 
-<body>
-    <h2 style="text-align: center; color: darkgreen; margin-top: 50px;" id="demo">
-    </h2>
-    <div style="margin-top: 150px;">
-        <p style="text-align: center;">Number guessing game</p>
-        <p> Let's begin the Game</p>
-         <p style="text-align: center;">Lets see</p>
-        <br>
-
-        <button style="background-color: tomato ;position: relative;margin-left: auto;margin-right: auto;display: block;" onclick="myFunction()">Try it</button>
+        <button class="button" onclick="myFunction()">Try it!</button>
+      </div>
     </div>
 
-
     <script>
-        function myFunction() {
-            var number = prompt("Please enter a number between 1 - 10:");
-            if (number != null) {
-                if (number == 7) {
-                    document.getElementById("demo").innerHTML =
-                        "Wooow !!" + number + " is a the correct guessing! ";
-                }
-                //5,6
-                else if (number < 7 && number > 4) {
-                    document.getElementById("demo").innerHTML =
-                        "very Good!! " + number + " Too closer guessing number.<br>Try again";
-                }
-                //3,4
-                else if (number > 2 && number < 5) {
-                    document.getElementById("demo").innerHTML =
-                        "very Good! " + number + " is Less than.But Too closer guessing number.<br>Try again";
-                }
-                //2,1
-                else if (number < 3 && number > 0) {
-                    document.getElementById("demo").innerHTML =
-                        "Sorry " + number + " is Too lower than guessing number.<br>Try again";
-                }
-                //8,9
-                else if (number > 7 && number < 10) {
-                    document.getElementById("demo").innerHTML =
-                        "very Good! " + number + " is greater than.But Too closer guessing number.<br>Try again";
-                } else {
-                    document.getElementById("demo").innerHTML =
-                        "Sorry " + number + " is greater than guessing number.<br>Try again";
-                }
-            }
+      function myFunction() {
+        var number = prompt("Please enter a number between 1 - 10:");
+        if (number != null) {
+          if (number == 7) {
+            document.getElementById("demo").innerHTML =
+              "Wooow !!" + number + " is a the correct guessing! ";
+          }
+          //5,6
+          else if (number < 7 && number > 4) {
+            document.getElementById("demo").innerHTML =
+              "very Good!! " +
+              number +
+              " Too closer guessing number.<br>Try again";
+          }
+          //3,4
+          else if (number > 2 && number < 5) {
+            document.getElementById("demo").innerHTML =
+              "very Good! " +
+              number +
+              " is Less than.But Too closer guessing number.<br>Try again";
+          }
+          //2,1
+          else if (number < 3 && number > 0) {
+            document.getElementById("demo").innerHTML =
+              "Sorry " +
+              number +
+              " is Too lower than guessing number.<br>Try again";
+          }
+          //8,9
+          else if (number > 7 && number < 10) {
+            document.getElementById("demo").innerHTML =
+              "very Good! " +
+              number +
+              " is greater than.But Too closer guessing number.<br>Try again";
+          } else {
+            document.getElementById("demo").innerHTML =
+              "Sorry " +
+              number +
+              " is greater than guessing number.<br>Try again";
+          }
         }
+      }
     </script>
-
-</body>
-
+  </body>
 </html>
