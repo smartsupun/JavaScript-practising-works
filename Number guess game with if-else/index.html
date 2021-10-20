@@ -1,22 +1,31 @@
 <!DOCTYPE html>
 <html>
-
+<style>
+.myDiv {
+  border: 5px outset red;
+  text-align: center;
+  width:50%; 
+  margin: 0 auto;
+  
+}
+</style>
 <body>
+    <div class="myDiv">
     <h2 style="text-align: center; color: darkgreen; margin-top: 50px;" id="demo">
     </h2>
     <div style="margin-top: 150px;">
-        <p style="text-align: center;">Number guessing game</p>
-        <p> Let's begin the Game</p>
-         <p style="text-align: center;">Lets see</p>
+        <p style="text-align: center; font-weight:bold;">Number guessing game</p>
+        <p style="font-weight:bold;"> Let's begin the Game</p>
+         <p style="text-align: center;font-weight:bold;">Lets see</p>
         <br>
 
         <button style="background-color: tomato ;position: relative;margin-left: auto;margin-right: auto;display: block;" onclick="myFunction()">Try it</button>
     </div>
-
+</div>
 
     <script>
         function myFunction() {
-            var number = prompt("Please enter a number between 1 - 10:");
+            var number = prompt("Please enter a number between 1 - 15:");
             if (number != null) {
                 if (number == 7) {
                     document.getElementById("demo").innerHTML =
@@ -40,8 +49,24 @@
                 //8,9
                 else if (number > 7 && number < 10) {
                     document.getElementById("demo").innerHTML =
-                        "very Good! " + number + " is greater than.But Too closer guessing number.<br>Try again";
-                } else {
+                        "very Good! " + number + " is greater than.<br>But Too closer guessing number.<br>Try again";
+                } 
+                //10,11
+                else if (number > 9 && number < 12) {
+                    document.getElementById("demo").innerHTML =
+                        "very Good! " + number + " is greater than.<br>But Too closer guessing number.<br>Try again";
+                }
+                //12,13
+                else if (number > 11 && number < 14) {
+                    document.getElementById("demo").innerHTML =
+                        "very Good! " + number + " is much greater than.<br> Slightly closer to the guess number.<br>Try again";
+                } 
+                //14,15
+                else if (number > 13 && number < 16) {
+                    document.getElementById("demo").innerHTML =
+                        "very Good! " + number + "is much greater than.<br>Not closer guessing number.<br>Try again";
+                }
+               else {
                     document.getElementById("demo").innerHTML =
                         "Sorry " + number + " is greater than guessing number.<br>Try again";
                 }
