@@ -4,7 +4,7 @@
     </a>
 </p>
 
-<h1 align="center"> Hacktoberfest 2021 🎉</h1>
+<h1 align="center"> Hacktoberfest 2022 🎉</h1>
 
 <div align="center">
   
@@ -18,7 +18,7 @@
 
 </div>
 
-### 🗣 Hacktoberfest encourages participation in the open source community, which grows bigger every year. Complete the 2021 challenge and earn a limited edition T-shirt.
+### 🗣 Hacktoberfest encourages participation in the open source community, which grows bigger every year. Complete the 2022 challenge and earn a limited edition T-shirt.
 
 📢 **Register [here](https://hacktoberfest.digitalocean.com) for Hacktoberfest and make four pull requests (PRs) between October 1st-31st to grab free SWAGS 🔥.**
 
@@ -62,6 +62,6 @@ Steps for adding your name below
 
 [![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
 
-Keep Connect With Me [Supun Lakshan](https://www.linkedin.com/in/supun-lakshan-0574261a9/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3B37prOMtsQAWvnWxa1aDJ0g%3D%3D) LinkedIn
+Keep Connect With Us [Supun Lakshan](https://www.linkedin.com/in/supun-lakshan-0574261a9/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3B37prOMtsQAWvnWxa1aDJ0g%3D%3D) LinkedIn
 
 README.md styling motivation credit goes to [Keshav Singh ](https://github.com/keshavsingh4522/hacktoberfest2021)
